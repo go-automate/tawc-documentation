@@ -1,0 +1,29 @@
+= Manual Test to *Delete* an existing Product
+
+Manual Test to *delete* an existing Product in the BWSA (Badly-Written and Slow Angular) website:
+
+http://automate.safebear.co.uk:8080
+
+
+|====
+| Step | Action | Expected Result
+
+| // DPSU01
+| // SETUP: Check whether the `Product` is listed, if it's not, create it.
+| // ASSERT: `Product` in list. 
+
+| // DP01
+| // Navigate to the `Products Page`
+| // ASSERT: We're on the `Products Page` of the Website
+
+| // DP02
+| // Click on the `Product` name
+| // ASSERT: We're on the `View Product` page
+
+| // DP03
+| // Click on the `Delete Product` button
+| // ASSERT: We're returned to the `Products Page`
+
+ // ASSERT: The `Product` is no longer listed.
+
+|====

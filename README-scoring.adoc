@@ -1,0 +1,32 @@
+= Scoring
+
+The table below outlines how each section was scored:
+
+|====
+| Method | Details
+
+| Speed
+| Time taken for 400 tests.
+
+| Reliability
+| Number of failures over 400 runs
+
+| Stability
+| Number of failures after 3 months has passed
+
+| Cross-browser
+| Ability to support all browser types
+
+| Employability
+| According to jobswatch.com
+
+| Popularity
+| According to Google Trends
+
+| Useability
+| Time taken to write a working test by a newbie.
+
+| Support
+| Time taken to get a response to a query through the most popular forum or chat about the tool.
+
+|====

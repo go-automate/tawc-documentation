@@ -1,0 +1,31 @@
+= Manual Test to *View* an existing Product
+
+Manual Test to *view* an existing Product in the BWSA (Badly-Written and Slow Angular) website:
+
+http://automate.safebear.co.uk:8080
+
+
+|====
+| Step | Action | Expected Result
+
+| // VPSU01
+| // SETUP: Check whether the `Product` is present in the list, if it's not, create it.
+| // ASSERT: `Product` in list. 
+
+| // VP01
+| // Navigate to the `Products Page`
+| // ASSERT: We're on the `Products Page` of the Website
+
+ // VERIFY: The `name` and `description` are correct.
+
+| // VP02
+| // Click on the `Product` name
+| // ASSERT: We're on the `View Product` page
+
+ // VERIFY: The `name`, `description` and `price` of the product are correct.
+
+| // VPTD01
+| // TEARDOWN: Delete the `Product` that was created.
+| // ASSERT: `Product` is no longer listed.
+
+|====

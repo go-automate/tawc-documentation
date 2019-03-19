@@ -1,0 +1,49 @@
+= Manual Test to *Edit* an existing Product
+
+Manual Test to *edit* an existing Product in the BWSA (Badly-Written and Slow Angular) website:
+
+http://automate.safebear.co.uk:8080
+
+
+|====
+| Step | Action | Expected Result
+
+| // EPSU01
+| // SETUP: Check whether the `Product` is present in the list, if it's not, create it.
+| // ASSERT: `Product` in list. 
+
+| // EP01
+| // Navigate to the `Products Page`
+| // ASSERT: We're on the `Products Page` of the Website
+
+| // EP02
+| // Click on the `Product` name
+| // ASSERT: We're on the `View Product` page
+
+| // EP03
+| // Click on the `Edit Product` button
+| // ASSERT: We're on the `Edit Product Page`
+
+| // EP04
+| // Clear the `name`, `description` and `price` fields.
+| // VERIFY: The fields are empty.
+
+| // EP05
+| // Enter new details from the `test-data-edit-product.json` file
+| // New details are entered
+
+| // EP06
+| // Click on the `Save` button
+| // ASSERT: We are taken to the `View Product` screen
+
+ // ASSERT: The `name`, `description` and `price` of the product have been updated.
+
+| // EP07
+| // Click on the `Products Page` button
+| // ASSERT: The `name` and `description` have been updated.
+
+| // EPTD01
+| // TEARDOWN: Delete the `Product` that was created.
+| // ASSERT: `Product` is no longer listed.
+
+|====

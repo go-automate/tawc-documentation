@@ -1,0 +1,15 @@
+== Test Data
+
+The test data that will be used is in JSON format in the `test-data.json` file. There are 100 products in the object array and the text is loren-ipsum.
+
+*Name:* Loren Ipsum word
+*Description:* Loren Ipsum paragraph
+*Price:* Any number between 1 and 1,000,000
+
+Created by JSON Generator: https://next.json-generator.com/41XLaPPw8
+
+Link to the JSON Generator for the `edit product` test:
+
+
+
+File: `test-data-edit-product.json`

@@ -1,0 +1,20 @@
+= Rules
+
+We tried to keep things simple and keep the rules minimal. They are:
+
+|====
+| Rule | Justification
+
+| CSS Selectors must be used for all locators.
+| This is the perferred locator for most tools and by using it across the board we wanted to avoid the `CSS Selectors` vs `XPath` row. However if a framework did state an alternative selector as it's preferred locator (e.g. Cypress has JQuery baked-in) we considered it fair to use that instead.
+
+| No additional libraries
+| To keep things fair, we only used libraries that were essential to the framework. These usually consisted of:
+
+. The Framework library
+. A `Test` framework
+. An `Assertion` framework
+
+If additional unrelated libraries or frameworks existed that could be used to `seed` the database etc. these were ignored, otherwise we would have to use them everywhere. HOWEVER: Third-party libraries that had been created to make frameworks more reliable and which were considered valid standard practice were used.
+
+|====
