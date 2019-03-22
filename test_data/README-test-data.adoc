@@ -6,10 +6,6 @@ The test data that will be used is in JSON format in the `test-data.json` file. 
 *Description:* Loren Ipsum paragraph
 *Price:* Any number between 1 and 1,000,000
 
-Created by JSON Generator: https://next.json-generator.com/41XLaPPw8
+Created by JSON Generator: https://next.json-generator.com/418NNWRvU
 
-Link to the JSON Generator for the `edit product` test:
-
-
-
-File: `test-data-edit-product.json`
+Link to JSON: https://next.json-generator.com/api/json/get/418NNWRvU

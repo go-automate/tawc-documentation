@@ -1,0 +1,4 @@
+Protractor:
+
+ - Hiding away the async / awaits can cause problems with more mature modulised frameworks.
+ - Can be difficult to debug
