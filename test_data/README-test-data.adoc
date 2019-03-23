@@ -4,8 +4,10 @@ The test data that will be used is in JSON format in the `test-data.json` file. 
 
 *Name:* Loren Ipsum word
 *Description:* Loren Ipsum paragraph
-*Price:* Any number between 1 and 1,000,000
+*Price:* Random choice of numbers (as a string) between 100, 200, 300 (for initial product) and 400, 500 and 600 (for editing a product)
 
-Created by JSON Generator: https://next.json-generator.com/418NNWRvU
+Created by JSON Generator: https://next.json-generator.com/4kmomZ1OL
 
-Link to JSON: https://next.json-generator.com/api/json/get/418NNWRvU
+Link to JSON: hhttps://next.json-generator.com/api/json/get/4kmomZ1OL
+
+We've also included a `debug-data.json` file with a couple of products in it. Use this when testing your code for your automation tests (so you don't have to wait for 100 products to be tested each time).
