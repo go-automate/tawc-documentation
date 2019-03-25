@@ -1,6 +1,6 @@
 == Test Data
 
-The test data that will be used is in JSON format in the `test-data.json` file. There are 100 products in the object array and the text is loren-ipsum.
+The test data that will be used is in JSON format.
 
 *Name:* Loren Ipsum word
 *Description:* Loren Ipsum paragraph
@@ -10,4 +10,6 @@ Created by JSON Generator: https://next.json-generator.com/4kmomZ1OL
 
 Link to JSON: hhttps://next.json-generator.com/api/json/get/4kmomZ1OL
 
-We've also included a `debug-data.json` file with a couple of products in it. Use this when testing your code for your automation tests (so you don't have to wait for 100 products to be tested each time).
+Reliability Test Data `reliability-test-data.json` = there are 100 products in the object array.
+Reliability Test Data `speed-test-data.json` = there are 8 products in the object array. Usually there are no failures in this small dataset so the speed of the tests can be reliably compared. Any runs with failures were ignored (Also useful for debugging and testing the tests as it's a small data set).
+
